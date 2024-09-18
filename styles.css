@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #9b5287;
+    color: #fff;
+    text-align: center;
+    /* padding: 20px; */
+}
+/* .kav{
+    border: 1px solid ;
+    border-color: #28A745;
+} */
+#myform {
+    background-color: #502e49;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+input, select, button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    max-width: 300px;
+}
+/* ההגדרה של הpopup */
+#edit-section{
+    display: none;
+}
+button {
+    background-color: #374060;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #4b5c84;
+}
+table {
+    width: 100%;
+    max-width: 900px;
+    margin:  auto;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #fff;
+    padding: 7px;
+    text-align: center;
+}
+#sortBtn {
+    margin-bottom: 10px;
+}
+#edit-form{
+    background-color: #a9d388;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    height: 100%;
+    width: 100%;
+    border: #fff;
+    margin: 30px;
+}
+#edit-div{
+    background-color: #873672;
+    position: absolute; top: 0; left: 0; height: 100%; width: 100%;
+}

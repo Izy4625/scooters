@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+   
+        
+        <form class="form" id="myform">
+            <input class="forminput" type="text" id="name" name="serialNumber" placeholder="serialNumber">
+            <input class="forminput" type="text" id="sectinput" name="model" placeholder="model">
+            <input class="forminput" type="number" id="sectinput" name="batteryLevel" placeholder="batteryLevel">
+            <input class="forminput" type="text" id="sectinput" name="imageUrl" placeholder="imageUrl">
+            <input class="forminput" type="text" id="sectinput" name="color" placeholder="color">
+            <select name="status" id="status-select" placeholder="status">
+                <!-- <option value="">--Please choose an option--</option> -->
+                <option value="availeble" placeholder="availeble">availeble</option>
+                <option value="inRepair" placeholder="inRepair">inRepair</option>
+                <option value="unavaileble" placeholder="unavaileble">unavaileble</option>
+            
+              </select>
+            <input type="submit" id="inpbutton" value="Submit">
+       </form>
+       <input type="text" id="inputColor" placeholder="search">
+       <button id="filterColor">Filter By color</button>
+  
+    <table id="scooter-table">
+        
+        <tr>
+            <th>Serial NUmmber</th>
+            <th>model</th>
+            <th>Battery Level</th>
+            <th>imageurl</th>
+            <th>color</th>
+            <th>status</th>
+            <th>actions</th>
+        </tr>
+        <tbody id="table-body"></tbody>
+    </table>
+  
+
+    
+</body>
+</html>
